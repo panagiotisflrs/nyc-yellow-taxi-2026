@@ -147,9 +147,9 @@ Built on Databricks native dashboard — 8 pages querying Gold Delta tables dire
 ![Overview](Dashboard/Screenshots/01_overview/01_overview.png)
 
 #### Monthly Trend
-![Monthly Trend](Dashboard/Screenshots/02_monthly_trends/02_monthly_trend_01.png)
-![Monthly Trend](Dashboard/Screenshots/02_monthly_trends/02_monthly_trend_02.png)
-![Monthly Trend](Dashboard/Screenshots/02_monthly_trends/02_monthly_trend_03.png)
+![Monthly Trend](Dashboard/Screenshots/02_monthly_trends/02_monthly_trend_analysis_01.png)
+![Monthly Trend](Dashboard/Screenshots/02_monthly_trends/02_monthly_trend_analysis_02.png)
+![Monthly Trend](Dashboard/Screenshots/02_monthly_trends/02_monthly_trend_analysis_03.png)
 
 #### Trip Duration & Surge
 ![Trip Duration](Dashboard/Screenshots/03_trip_analysis/03_trip_duration_01.png)
@@ -163,8 +163,8 @@ Built on Databricks native dashboard — 8 pages querying Gold Delta tables dire
 ![Geography](Dashboard/Screenshots/04_Geography/04_geography_03.png)
 
 #### Fare & Payment
-![Fare & Payment](Dashboard/Screenshots/05_fare_and_payment/05_fare_payment_01.png)
-![Fare & Payment](Dashboard/Screenshots/05_fare_and_payment/05_fare_payment_02.png)
+![Fare & Payment](Dashboard/Screenshots/05_fare_and_payment/05_fare&payment_01.png)
+![Fare & Payment](Dashboard/Screenshots/05_fare_and_payment/05_fare&payment_02.png)
 
 #### Vendors Analysis
 ![Vendors](Dashboard/Screenshots/06_vendors_analysis/06_vendors_analysis_01.png)
@@ -177,9 +177,9 @@ Built on Databricks native dashboard — 8 pages querying Gold Delta tables dire
 ![Airport](Dashboard/Screenshots/07_airport_analysis/07_airport_analysis_03.png)
 
 #### Congestion Analysis
-![Congestion](Dashboard/Screenshots/08_congestion_zone_analysis/08_congestion_analysis_01.png)
-![Congestion](Dashboard/Screenshots/08_congestion_zone_analysis/08_congestion_analysis_02.png)
-![Congestion](Dashboard/Screenshots/08_congestion_zone_analysis/08_congestion_analysis_03.png)
+![Congestion](Dashboard/Screenshots/08_congestion_zone_analysis/08_congestion_zone_analysis_01.png)
+![Congestion](Dashboard/Screenshots/08_congestion_zone_analysis/08_congestion_zone_analysis_02.png)
+![Congestion](Dashboard/Screenshots/08_congestion_zone_analysis/08_congestion_zone_analysis_03.png)
 
 ---
 
