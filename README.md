@@ -144,28 +144,42 @@ Built on Databricks native dashboard — 8 pages querying Gold Delta tables dire
 ### Screenshots
 
 #### Overview
-![Overview](dashboard/screenshots/overview.png)
+![Overview](Dashboard/Screenshots/01_overview/01_overview.png)
 
 #### Monthly Trend
-![Monthly Trend](dashboard/screenshots/monthly_trend.png)
+![Monthly Trend](Dashboard/Screenshots/02_monthly_trends/monthly_trend_01.png)
+![Monthly Trend](Dashboard/Screenshots/02_monthly_trends/monthly_trend_02.png)
+![Monthly Trend](Dashboard/Screenshots/02_monthly_trends/monthly_trend_03.png)
 
 #### Trip Duration & Surge
-![Trip Duration](dashboard/screenshots/trip_duration.png)
+![Trip Duration](Dashboard/Screenshots/03_trip_analysis/trip_duration_01.png)
+![Trip Duration](Dashboard/Screenshots/03_trip_analysis/trip_duration_02.png)
+![Trip Duration](Dashboard/Screenshots/03_trip_analysis/trip_duration_03.png)
+![Trip Duration](Dashboard/Screenshots/03_trip_analysis/trip_duration_04.png)
 
 #### Geography
-![Geography](dashboard/screenshots/geography.png)
+![Geography](Dashboard/Screenshots/04_Geography/geography_01.png)
+![Geography](Dashboard/Screenshots/04_Geography/geography_02.png)
+![Geography](Dashboard/Screenshots/04_Geography/geography_03.png)
 
 #### Fare & Payment
-![Fare & Payment](dashboard/screenshots/fare_payment.png)
+![Fare & Payment](Dashboard/Screenshots/05_fare_and_payment/fare_payment_01.png)
+![Fare & Payment](Dashboard/Screenshots/05_fare_and_payment/fare_payment_02.png)
 
 #### Vendors Analysis
-![Vendors](dashboard/screenshots/vendors_analysis.png)
+![Vendors](Dashboard/Screenshots/06_vendors_analysis/vendors_analysis_01.png)
+![Vendors](Dashboard/Screenshots/06_vendors_analysis/vendors_analysis_02.png)
+![Vendors](Dashboard/Screenshots/06_vendors_analysis/vendors_analysis_03.png)
 
 #### Airport Analysis
-![Airport](dashboard/screenshots/airport_analysis.png)
+![Airport](Dashboard/Screenshots/07_airport_analysis/airport_analysis_01.png)
+![Airport](Dashboard/Screenshots/07_airport_analysis/airport_analysis_02.png)
+![Airport](Dashboard/Screenshots/07_airport_analysis/airport_analysis_03.png)
 
 #### Congestion Analysis
-![Congestion](dashboard/screenshots/congestion_analysis.png)
+![Congestion](Dashboard/Screenshots/08_congestion_zone_analysis/congestion_analysis_01.png)
+![Congestion](Dashboard/Screenshots/08_congestion_zone_analysis/congestion_analysis_02.png)
+![Congestion](Dashboard/Screenshots/08_congestion_zone_analysis/congestion_analysis_03.png)
 
 ---
 
