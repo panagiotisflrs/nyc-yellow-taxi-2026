@@ -43,6 +43,7 @@ and PySpark within the same Databricks notebook.
 
 ## Medallion Architecture
 
+```
 Source (NYC TLC)
 │
 ▼
@@ -75,6 +76,7 @@ Source (NYC TLC)
 ┌─────────────┐
 │ GOLD │ Nine analytical Delta tables — serving layer for dashboard
 └─────────────┘
+```
 
 ---
 
