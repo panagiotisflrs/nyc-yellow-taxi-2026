@@ -43,9 +43,38 @@ and PySpark within the same Databricks notebook.
 
 ## Medallion Architecture
 
-fhfth
-fhfh
-
+Source (NYC TLC)
+│
+▼
+┌─────────────┐
+│ BRONZE │ Raw ingestion — no transformations
+│ │ · yellow_taxi_trip_raw_data (~12.6M rows, 5 Parquet files)
+│ │ · yellow_taxi_lookup_raw_data (265 rows, zone reference)
+└──────┬──────┘
+│
+▼
+┌─────────────┐
+│ SILVER │ Cleaned + enriched (~12.25M rows after filtering)
+│ │
+│ │ Removed:
+│ │ · Invalid fares and zero-distance trips
+│ │ · Impossible timestamps (dropoff ≤ pickup)
+│ │ · Trip duration < 1 min or > 180 mins (meter errors)
+│ │ · Timestamps outside 2026
+│ │ · June 2026 (single-trip incomplete export)
+│ │
+│ │ Added:
+│ │ · vendorid_label, rate_type, payment_type_label
+│ │ · pickup_hour, pickup_day_of_week, pickup_month
+│ │ · trip_duration_mins, avg_speed_mph
+│ │ · tip_pct (credit card only)
+│ │ · trip_type, congestion_zone_flag
+└──────┬──────┘
+│
+▼
+┌─────────────┐
+│ GOLD │ Nine analytical Delta tables — serving layer for dashboard
+└─────────────┘
 
 ---
 
@@ -140,10 +169,15 @@ Built on Databricks native dashboard — 8 pages querying Gold Delta tables dire
 
 ## Project Structure
 
-sfsd
-sfsf
-
-
+nyc-yellow-taxi-2026/
+├── README.md
+├── notebook/
+│ └── Taxi_dataset.ipynb # Full Databricks notebook — Bronze to Gold
+├── dashboard/
+│ └── screenshots/ # Dashboard page screenshots
+└── data/
+└── taxi_zone_lookup.csv # TLC zone reference table (265 rows)
+└── 5 .parquet files
 
 ---
 
