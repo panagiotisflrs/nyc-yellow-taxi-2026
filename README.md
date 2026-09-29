@@ -171,6 +171,7 @@ Built on Databricks native dashboard — 8 pages querying Gold Delta tables dire
 
 ## Project Structure
 
+```
 nyc-yellow-taxi-2026/
 ├── README.md
 ├── notebook/
@@ -180,6 +181,7 @@ nyc-yellow-taxi-2026/
 └── data/
 └── taxi_zone_lookup.csv # TLC zone reference table (265 rows)
 └── 5 .parquet files
+```
 
 ---
 
