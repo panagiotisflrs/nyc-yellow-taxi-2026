@@ -115,8 +115,8 @@ Source (NYC TLC)
 
 | Issue | Decision |
 |---|---|
-| Trip duration < 1 min — meter not properly reset | Removed in Silver |
-| Trip duration > 180 mins — meter left running | Removed in Silver |
+| Trip duration < 5 min — meter not properly reset | Removed in Silver |
+| Trip duration > 200 mins — meter left running | Removed in Silver |
 | Timestamps outside 2026 — meter clock resets | Removed in Silver |
 | June 2026 — only 1 trip in source file | Excluded — incomplete export |
 | RatecodeID = 99 — valid per 2026 data dictionary | Kept, labelled `unknown` |
