@@ -23,7 +23,7 @@ and PySpark within the same Databricks notebook.
 
 - Implement a production-style medallion architecture (Bronze / Silver / Gold) on Databricks Unity Catalog
 - Apply rigorous data quality rules in Silver: invalid timestamps, meter errors, outlier durations, and unknown vendor/rate codes
-- Build nine Gold analytical Delta tables covering trip efficiency, fare breakdown, surge detection, geographic corridors, airport analysis, congestion policy impact, vendor comparison, and monthly trends
+- Build thirteen Gold analytical Delta tables covering trip efficiency, fare breakdown, surge detection, geographic corridors, airport analysis, congestion policy impact, vendor comparison, and monthly trends
 - Deliver findings through an interactive multi-page Databricks dashboard
 
 ---
