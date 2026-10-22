@@ -194,6 +194,7 @@ nyc-yellow-taxi-2026/
 ├── dashboard/
 │ └── screenshots/ # Dashboard page screenshots
 └── data/
+└── data_dictionary_trip_records_yellow.pdf
 └── taxi_zone_lookup.csv # TLC zone reference table (265 rows)
 └── 5 .parquet files
 ```
