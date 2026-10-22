@@ -91,7 +91,8 @@ Source (NYC TLC)
 | 4 | `top_pickup_dropoff_zones` | Zones in top 10 for both pickup and dropoff volume |
 | 5a | `zone_to_zone_frequency` | Top 20 most frequent pickup → dropoff corridors |
 | 5b | `zone_to_zone_profitability` | Top 20 most profitable corridors by fare per minute (min. 20 trips) |
-| 6 | `trip_type_analysis` | Airport vs standard trip comparison + top 15 airport pickup zones |
+| 6a | `trip_type_analysis` | Airport vs standard trip comparison |
+| 6b | `trip_type_in_depth_analysis` | Top 15 airport pickup zones |
 | 7a | `congestion_impact_by_corridor` | Congestion zone vs standard trips by borough corridor |
 | 7b | `congestion_impact_monthly` | Monthly trend by congestion zone flag with MoM growth |
 | 8 | `vendor_performance` | Vendor comparison — fares, tips, payment method breakdown |
