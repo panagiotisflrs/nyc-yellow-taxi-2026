@@ -74,7 +74,7 @@ Source (NYC TLC)
 │
 ▼
 ┌─────────────┐
-│ GOLD │ Nine analytical Delta tables — serving layer for dashboard
+│ GOLD │ Thirteen analytical Delta tables — serving layer for dashboard
 └─────────────┘
 ```
 
