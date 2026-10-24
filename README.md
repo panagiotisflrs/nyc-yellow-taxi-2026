@@ -185,8 +185,8 @@ Built on the Databricks native dashboard — 8 pages querying the Gold Delta tab
 ![Geography](Dashboard/Screenshots/04_Geography/04_geography_03.png)
 
 #### Fare & Payment
-![Fare & Payment](Dashboard/Screenshots/05_fare_and_payment/05_fare&payment_01.png)
-![Fare & Payment](Dashboard/Screenshots/05_fare_and_payment/05_fare&payment_02.png)
+![Fare & Payment](Dashboard/Screenshots/05_fare_and_payment/05_fare_and_payment_01.png)
+![Fare & Payment](Dashboard/Screenshots/05_fare_and_payment/05_fare_and_payment_02.png)
 
 #### Vendors Analysis
 ![Vendors](Dashboard/Screenshots/06_vendors_analysis/06_vendors_analysis_01.png)
